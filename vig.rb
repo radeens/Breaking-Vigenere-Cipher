@@ -45,6 +45,7 @@ def partitioning(k, cipherText)
   return avg
 end
 
+#-------------------------------- main() -------------------------#
 #gets the cipher text from the input console
 
 if ARGV.length > 0 then
@@ -68,11 +69,7 @@ end
 keylength = ics.index(ics.max)+1 
 puts "Hoooray! Key Length is #{keylength} character long."
 
-
-###############################################################################
-
 # find the key based on the key-length
-
 def find_fr(array)
   length = array.length.to_f
   fre = 0
@@ -118,7 +115,7 @@ end
 
 puts "And the key is: #{key.to_s}" 
 
-###############################################################################
+#--------------------------------X------------------------#
 # Decode of  the cipher text with the key
 message = ""
 cipherText.split("").each_with_index{|c, i|
