@@ -1,10 +1,8 @@
 ################################################################################
 # Author: Deepak Luitel                                                        #
-# School: University of Maryland                                               #
-# Assignment: Vigenere Cipher Decryption                                       #
 # 1. Find the Key Length                                                       #    
 # 2. Find the Key                                                              #
-# 3. Decrypt the CipherText  Note: A = 1 && Z = 0                              #
+# 3. Decrypt the CipherText  Note: A = 0 && Z = 25                             #
 ################################################################################
 
 # finds the frequency of a part in array
