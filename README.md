@@ -1,4 +1,4 @@
-            Breaking the vigenere cipher with frequency analysis
+#Breaking the vigenere cipher using frequency analysis
 
             Run Using command line interface as:
               "Ruby vig.rb input.in"
